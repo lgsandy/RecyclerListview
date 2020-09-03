@@ -1,0 +1,38 @@
+{
+  "name": "mapapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/art": "^1.2.0",
+    "dependencies": "0.0.1",
+    "install": "^0.13.0",
+    "peer": "^0.5.3",
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "react-native-chart-kit": "^6.6.0",
+    "react-native-maps": "0.27.1",
+    "react-native-pie": "^1.1.2",
+    "react-native-svg": "^12.1.0",
+    "recyclerlistview": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/runtime": "^7.11.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.7.0",
+    "jest": "^26.4.2",
+    "metro-react-native-babel-preset": "^0.63.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
